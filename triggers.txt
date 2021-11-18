@@ -1,0 +1,9 @@
+Instructions :
+    - Run batchCompare() after every `trackAfter` minutes
+        It tracks a batch of products (Normal Mode)
+    - Run pincodeBatchCompare() after every `pincodeTrackAfter` minutes
+        It tracks a batch of products (Pincode Mode)
+    - Run raat() when it's night to turn off pincode tracking feature at night
+        It will automatically turn on a timed execution of subhe() in morning
+    - Run subhe() when it's morning to turn on pincode tracking feature when it is morning
+        It will automatically turn on a timed execution of raat() at night
